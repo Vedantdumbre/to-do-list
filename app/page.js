@@ -41,7 +41,7 @@ const deleteHandler = (i)=>{
   });}
   return (
     <>
-      <h1 className="bg-black text-white text-center font-bold p-5 text-5xl">
+      <h1 className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-center font-bold p-5 text-5xl">
         Vedz TODO-LIST
       </h1>
       <form onSubmit={submitHandler} >
